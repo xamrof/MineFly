@@ -1,0 +1,12 @@
+name: terraria
+main: formax\Loader
+version: 1.0
+api: [5.0.0]
+author: formax
+commands:
+  fly:
+    permission: "fly.system"
+    use: "/fly"
+permissions:
+  fly.system:
+    default: op
